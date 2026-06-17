@@ -13,12 +13,4 @@ C++ coursework from FIT CTU Prague — algorithms, data structures, and systems 
 | `polynomial.cpp` | Sparse polynomial with full operator overloading (`*`, `[]`, `()`, `<<`, `bool`) |
 | `population_register.cpp` | Sorted register with copy-on-write semantics and manual memory management |
 
-## Building
-
-Each file is self-contained with a `main()` containing assertion-based tests.
-
-```bash
-g++ -std=c++17 -Wall -o out <filename>.cpp && ./out
-```
-
 > `linker.cpp` requires binary `.o` test files from the original assignment to run its tests.
